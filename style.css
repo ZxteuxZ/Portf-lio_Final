@@ -2,13 +2,39 @@ body {
     margin: 0px;
 }
 
+
+ul {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+li{
+    float: left;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    border-bottom: solid;
+    border-bottom-color:white ;
+    color: aliceblue;
+}
+
+
 #head {
-   background-color: #c3c3c3;
+    background-color: #4e4e4e;
     width: 100%;
     height: 100px;
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
 
 #body {
     background-color: black;
@@ -18,10 +44,12 @@ body {
     padding-bottom: 10px;
 }
 
+
 #bottom {
-    background-color: darkgrey;
+    background-color: #4e4e4e;
     height: 100px;
 }
+
 
 #menu {
 
@@ -35,15 +63,6 @@ body {
     margin-right: 25px;
 }
 
-.sub {
-    background-color: #c3c3c3;
-    width: 95%;
-    height: 270px;
-    margin-top: 10px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 1%;
-}
 
 #logo {
     width: 170px;
@@ -54,16 +73,17 @@ body {
     background: transparent;
 }
 
-ul {
-    margin-left: auto;
+
+.sub {
+    background-color: #c3c3c3;
+    width: 95%;
+    height: 270px;
+    margin-top: 10px;
     margin-right: auto;
+    margin-left: auto;
+    padding: 1%;
 }
 
-li{
-    float: left;
-    margin-right: 50px;
-    font-size: 20px;
-}
 
 .sub_3x {
     background-color: beige;
@@ -73,8 +93,27 @@ li{
     display: inline-block;
 }
 
+
 .imgs {
 width: 100%;
 height: 100%;
 }
+
+
+.sub_long {
+    background-color: #757575;
+    width: 64%;
+    height: 100%;
+    display: inline-block;
+}
+
+
+.sub_short {
+    background-color: #757575;
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+}
+
+
 
