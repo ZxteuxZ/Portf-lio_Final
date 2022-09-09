@@ -26,13 +26,6 @@ a:hover {
     color: aliceblue;
 }
 
-p{
-    text-align: justify;
-    font-size: medium;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-
 #head {
     background-color: #4e4e4e;
     width: 100%;
@@ -118,6 +111,13 @@ height: 100%;
     width: 33%;
     height: 100%;
     display: inline-block;
+}
+
+.text{
+    text-align: justify;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
 }
 
 
