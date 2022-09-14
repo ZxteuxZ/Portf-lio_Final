@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background-color: black;
 }
 
 
@@ -40,7 +41,7 @@ a:hover {
 #body {
     background-color: black;
     width: 100%;
-    height: 900px;
+    height: 370px;
     padding-top: 1px;
     padding-bottom: 10px;
 }
@@ -73,17 +74,30 @@ a:hover {
     background: transparent;
 }
 
+#curriculo {
+
+    width: 270px;
+    height: 200px;
+    padding-left: 300px;
+    padding-right: 250px;
+    padding-top: 30px;
+    
+} 
+#curriculo-text {
+    width: 70%;
+    height: 200px;
+    padding-left: 250px;
+    padding-top: 30px;
+}
 
 /* INICIO DAS CLASS */
 
 .sub {
-    background-color: #c3c3c3;
-    width: 95%;
+    background-color: #757575;
+    width: 100%;
     height: 270px;
-    margin-top: 10px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 1%;
+    margin-top: 0px;
+    margin-bottom: 15px;
 }
 
 
@@ -123,6 +137,12 @@ height: 100%;
     font-size: medium;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0px;
+    
+}
+
+.btn {
+    padding-left: 300px;
+    margin-top: 17px;
     
 }
 
