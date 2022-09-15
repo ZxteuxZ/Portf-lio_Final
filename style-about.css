@@ -1,3 +1,4 @@
+
 body {
     margin: 0px;
     background-color: black;
@@ -14,6 +15,7 @@ li{
     float: left;
     margin-right: 50px;
     font-size: 20px;
+    padding-right: 7px;
 }
 
 a{
@@ -21,11 +23,13 @@ a{
     color: white;
 }
 
-a:hover {
+
+.menu_palavras:hover {
     border-bottom: solid;
     border-bottom-color:white ;
     color: aliceblue;
 }
+
 
 /* INICIO DAS ID */
 
@@ -50,6 +54,7 @@ a:hover {
 #bottom {
     background-color: #4e4e4e;
     height: 100px;
+    text-align: center;
 }
 
 
@@ -72,22 +77,27 @@ a:hover {
     margin-left: 25px;
     float: left;
     background: transparent;
+
 }
 
 #curriculo {
 
-    width: 270px;
+    width: 830px;
     height: 200px;
-    padding-left: 300px;
-    padding-right: 250px;
     padding-top: 30px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
     
-} 
+
 #curriculo-text {
     width: 70%;
     height: 200px;
     padding-left: 250px;
     padding-top: 30px;
+    text-align: center;
 }
 
 /* INICIO DAS CLASS */
@@ -111,8 +121,8 @@ a:hover {
 
 
 .imgs {
-width: 100%;
-height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -134,17 +144,44 @@ height: 100%;
 
 .text{
     text-align: justify;
-    font-size: medium;
+    font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0px;
-    
+
 }
 
-.btn {
-    padding-left: 300px;
-    margin-top: 17px;
-    
+.btn1 {
+    padding: 10px 10px 10px 10px;
+    box-shadow: white;
+    text-align: center;
+    background-color: black;
+    display: inline;
+    border-radius: 8px;
+    border:  2px solid white;
+    margin: 100px solid;
+    line-height: 100px;
+    margin-right: 50px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 2px 2px white;
 }
+
+.btn2 {
+    padding: 10px 10px 10px 10px;
+    box-shadow: white;
+    text-align: center;
+    background-color: black;
+    display: inline;
+    border-radius: 8px;
+    border:  2px solid white;
+    margin: 100px solid;
+    line-height: 100px;
+    margin-left: 50px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 2px 2px white;
+}
+
 
 
 
