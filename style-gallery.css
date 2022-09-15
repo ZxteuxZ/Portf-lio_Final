@@ -13,6 +13,7 @@ li{
     float: left;
     margin-right: 50px;
     font-size: 20px;
+    padding-left: 7px;
 }
 
 a{
@@ -74,7 +75,7 @@ a:hover {
     width: 380px;
     height: 130px;
     padding-top: 0px;
-    margin-left: 25px;
+    margin-left: 40px;
     float: left;
     background: transparent;
 }
@@ -87,7 +88,7 @@ a:hover {
     margin-top: 10px;
     margin-right: auto;
     margin-left: auto;
-    padding: 1%;
+    padding: 10px;
 }
 
 
